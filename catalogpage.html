@@ -3,8 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Catalog page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-
+<header>
+    <nav>
+        <a href="catalogpage.html#hits">Хіти продажу</a>
+        <a href="catalogpage.html">Каталог</a>
+        <a href="#footer">Контакти</a>
+        <a href="profilepage.html" title="Профіль">
+            <img src="img/usericon.png" alt="Профіль" width="40" height="40">
+        </a>
+    </nav>
+    <h1><a href="index.html">HOMEWEAR</a></h1>
+</header>
+<hits id="hits">
+<h2>Хіти продажів</h2>
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/hits1.png" alt="Товар 1">
+            <p>Назва товару 1</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="img/hits2.png" alt="Товар 2">
+            <p>Назва товару 2</p>
+        </div>
+        <div class="swiper-slide">
+            <img src="img/hits3.png" alt="Товар 3">
+            <p>Назва товару 3</p>
+        </div>
+    </div>
+    <!-- Кнопки навігації -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+</hits>
+<main>
+    <aside>
+        <h2>Категорії</h2>
+        <ul>
+            <li><a href="#">Піжами</a></li>
+            <li><a href="#">Шкарпетки</a></li>
+            <li><a href="#">Білизна</a></li>
+            <li><a href="#">Для дому</a></li>
+            <li><a href="#">Аксесуари</a></li>
+        </ul>
+    </aside>
+    <h2>Всі товари</h2>
+    <div>
+        <div>
+            <img src="img/product1.png" alt="Товар 4">
+            <p>Назва товару 4</p>
+        </div>
+        <div>
+            <img src="img/product2.png" alt="Товар 5">
+            <p>Назва товару 5</p>
+        </div>
+        <div>
+            <img src="img/product3.png" alt="Товар 6">
+            <p>Назва товару 6</p>
+        </div>
+        <div>
+            <img src="img/product4.png" alt="Товар 6">
+            <p>Назва товару 7</p>
+        </div>
+        <button>Більше</button>
+    </div>
+</main>
+<footer id="footer">
+    <p>Контакти: +38 (063) 123-45-67</p>
+    <p>Адреса: м. Київ, вул. Хрещатик, 1</p>
+    <p>&copy; 2025 HOMEWEAR</p>
+</footer>
 </body>
 </html>
