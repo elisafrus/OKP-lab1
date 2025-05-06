@@ -78,3 +78,33 @@ ul {
 
 
 
+/* Контекстний селектор: span всередині .product-item */
+.product-item span.material {
+    font-weight: bold;
+    color: #6a1b9a;
+    background-color: #f3e5f5;
+}
+
+/* Дочірній селектор: p безпосередньо в .details */
+.details > p {
+    font-size: 16px;
+    color: #004d40;
+    margin: 5px 0;
+}
+
+/* Сусідній селектор: p.promo одразу після .details */
+.details + p.promo {
+    background-color: #fff8e1;
+    border-left: 5px solid #ffb300;
+    padding: 10px;
+    font-style: italic;
+}
+
+/* Для списку */
+ol {
+    background-color: #fafafa;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
